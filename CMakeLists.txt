@@ -3,6 +3,5 @@ project(fortran_faddeeva_usage_example Fortran)
 
 add_subdirectory(Faddeeva_fortran)
 
-enable_language(Fortran)
 add_executable(fortran_faddeeva_usage_example main.f90)
-target_link_libraries(fortran_faddeeva_usage_example Faddeeva_package)
+target_link_libraries(fortran_faddeeva_usage_example Faddeeva_fortran::Faddeeva_fortran)
