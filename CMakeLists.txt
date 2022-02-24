@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19)
+cmake_minimum_required(VERSION 3.16.3)
 project(fortran_faddeeva_usage_example Fortran)
 
 add_subdirectory(Faddeeva_fortran)
