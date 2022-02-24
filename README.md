@@ -1,8 +1,7 @@
 # fortran_faddeeva_usage_example
 This project provides a usage example for [Faddeeva_fortran.](https://github.com/ArtyomShalev/Faddeeva_fortran)
 ## How to use the project
-Faddeeva_fortran enrolls as a git submodule. The project can be
-downloaded and run as:
+Faddeeva_fortran enrolls as a git submodule. 
 
 ### Prerequisites
 
