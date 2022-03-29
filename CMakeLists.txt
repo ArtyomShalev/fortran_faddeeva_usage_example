@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16.3)
 project(fortran_faddeeva_usage_example Fortran)
 
-add_subdirectory(Faddeeva_fortran)
+add_subdirectory(faddeeva_fortran)
 
 add_executable(fortran_faddeeva_usage_example main.f90)
-target_link_libraries(fortran_faddeeva_usage_example Faddeeva_fortran::Faddeeva_fortran)
+target_link_libraries(fortran_faddeeva_usage_example faddeeva_fortran::faddeeva_fortran)
